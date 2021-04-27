@@ -20,3 +20,10 @@ export interface Translations {
     br: string;
     pt: string;
 }
+
+export interface RegionalBloc {
+    acronym: string;
+    name: string;
+    otherAcronyms: string[];
+    otherNames: string[];
+}
